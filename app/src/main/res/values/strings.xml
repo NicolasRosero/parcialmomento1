@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Parcial App M1</string>
+    <string name="author">Nicolas Rosero Correal</string>
+    <string name="startLabel">Comienza</string>
+    <string name="registerLabel">Registrate</string>
+    <string name="loginLabel">Ingresar</string>
+    <string name="resetPasswordLabel">Recupera tu contraseña</string>
+    <string name="welcomeText">Inicia una nueva aventura con W.A.S.P.P y descubre una nueva forma de ver el mundo.</string>
+    <string name="loginText">La aventura esta por iniciar, por favor inicia sesión</string>
+    <string name="imgIconDesc">Icon imagen</string>
+    <string name="imgLoginDesc">Imagen de credenciales</string>
+    <string name="inputUserNameLabel">Usuario</string>
+    <string name="inputUserPasswordLabel">Contraseña</string>
+    <string name="loginWithGoogle">Ingresa con Google</string>
+    <string name="registerMessage">Completa el formulario para registrate</string>
+    <string name="noAccount">¿No tienes cuenta?</string>
+    <string name="returnLabel">Regresar</string>
+    <string name="editLabel" >Editar</string>
+
+    <!-- Cadenas para el formulario de registro -->
+    <string name="inputNameString">Nombres</string>
+    <string name="inputLastNameString">Apellidos</string>
+    <string name="inputEmailString">Correo electrónico</string>
+    <string name="inputPhoneString">Teléfono</string>
+    <string name="inputPasswordString">Contraseña</string>
+    <string name="inputConfirmPasswordString">Confirmar contraseña</string>
+    <string name="checkTermsAndConditionsString">Acepta términos y condiciones</string>
+    <string name="btnCreateNewUserString">Registrar</string>
+    <string name="hasAlreadyAccountString">¿Ya estás registrado?</string>
+    <string name="goToLoginFromRegistryString">Iniciar sesión</string>
+
+    <!-- Cadenas para el formulario de recuperacion de contrasena -->
+    <string name="resetPasswordMessage">Ingresa tu correo electronico para recuperar tu contraseña</string>
+    <string name="btnResetPassword">Recuperar contraseña</string>
+
+    <!-- Cadenas para el formulario de datos de consumo -->
+    <string name="cosumeDataLabel">Datos de consumo</string>
+    <string name="checkLavadora">Lavadora</string>
+    <string name="checkNevera">Nevera</string>
+    <string name="checkHorno">Horno</string>
+    <string name="checkTelevisores">Televisores</string>
+    <string name="checkSecadora">Secadora</string>
+</resources>

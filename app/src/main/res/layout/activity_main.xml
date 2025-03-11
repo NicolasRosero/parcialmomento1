@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:id="@+id/mainActivity"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/datosConsumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="@string/cosumeDataLabel"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="297dp"
+        android:layout_height="604dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datosConsumo">
+
+        <CheckBox
+            android:id="@+id/checkbox_lavadora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:text="@string/checkLavadora"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_nevera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:text="@string/checkNevera"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_horno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:text="@string/checkHorno"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_televisores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:text="@string/checkTelevisores"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_secadora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adlam_display"
+            android:text="@string/checkSecadora"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

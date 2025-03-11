@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ParcialAppM1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/mainColor</item>
+    </style>
+
+    <style name="Theme.ParcialAppM1" parent="Base.Theme.ParcialAppM1" />
+</resources>
